@@ -1,7 +1,3 @@
-https://badgen.net/static/license/MIT/blue
-
-
-
 
 # Random Dice Roller
 
