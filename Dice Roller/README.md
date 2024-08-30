@@ -1,3 +1,6 @@
+| Build | Tests | Coverage |
+| :---: | :----: | :------: | 
+| [![Build Status](badge)](link) | [![Tests](badge)](link)| [![Coverage](badge)](link) |
 
 # Random Dice Roller
 
