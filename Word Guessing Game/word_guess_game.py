@@ -1,6 +1,6 @@
 import random as rn
 
-words = ['hello','dog','apple','class','orange','melon','straw','game','word','elephant','good','marvel','disney',]
+words = ['hello','dog','apple','class','orange','melon','straw','game','word','elephant','good','marvel','disney']
 random_choice = rn.choice(words)
 hint = random_choice[0]+random_choice[-1]
 
