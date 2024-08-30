@@ -1,6 +1,3 @@
-| Build | Tests | Coverage |
-| :---: | :----: | :------: | 
-| [![Build Status](badge)]([link](https://img.shields.io/badge/any_text-you_like-blue)) | [![Tests](badge)](link)| [![Coverage](badge)](link) |
 
 # Random Dice Roller
 
