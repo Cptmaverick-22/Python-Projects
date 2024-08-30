@@ -33,10 +33,12 @@ This Python script generates a random password based on the user's desired diffi
 
 ## Example Output
 
-- Password generator:
-- Enter the length of the password you want: 12
-- Enter the difficulty of your password (EASY) (MEDIUM) (HARD): hard
-- The generated password is: 7E#mJ2qaS!eX
+```
+Password generator:
+Enter the length of the password you want: 12
+Enter the difficulty of your password (EASY) (MEDIUM) (HARD): hard
+The generated password is: 7E#mJ2qaS!eX
+```
 
 ## Important Notes
 
