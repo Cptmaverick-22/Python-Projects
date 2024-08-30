@@ -1,3 +1,8 @@
+https://badgen.net/static/license/MIT/blue
+
+
+
+
 # Random Dice Roller
 
 This Python script simulates rolling a six-sided die multiple times. The user can choose how many times they want to roll the die, and after each set of rolls, they are asked if they want to roll again.
