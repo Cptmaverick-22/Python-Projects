@@ -42,21 +42,23 @@ This Python script is a simple word-guessing game where the player has to guess 
 
 ## Example Output
 
-- Enter your name: John
-- Welcome to word game John
-- You will have 6 chances to guess the word
-- guess a letter: a
-- Incorrect guess
-- guess a letter: e
-- you have guessed one letter correctly
+```
+Enter your name: John
+Welcome to word game John
+You will have 6 chances to guess the word
+guess a letter: a
+Incorrect guess
+guess a letter: e
+you have guessed one letter correctly
 ...
 
-- Lets see how much you have guessed the word: 
-- You have guessed 2 letters correctly and the letters are: ['e', 'l']
+Lets see how much you have guessed the word: 
+You have guessed 2 letters correctly and the letters are: ['e', 'l']
 
-- Now guess the whole word
-- Enter the whole word: apple
-- Congratulations You got it !!!!
+Now guess the whole word
+Enter the whole word: apple
+Congratulations You got it !!!!
+```
 
 ## License
 

@@ -1,3 +1,4 @@
+
 # Random Dice Roller
 
 This Python script simulates rolling a six-sided die multiple times. The user can choose how many times they want to roll the die, and after each set of rolls, they are asked if they want to roll again.
@@ -33,19 +34,22 @@ This Python script simulates rolling a six-sided die multiple times. The user ca
 
 ## Example Output
 
-- Random Dice Roller
-- Enter the times you want to roll: 3
-- Rolling dice 1 time giving point: 4
-- Rolling dice 2 time giving point: 2
-- Rolling dice 3 time giving point: 6
+```
+Random Dice Roller
+Enter the times you want to roll: 3
+Rolling dice 1 time giving point: 4
+Rolling dice 2 time giving point: 2
+Rolling dice 3 time giving point: 6
 
-- want to roll again? (yes/no): yes
-- Enter the times you want to roll: 2
-- Rolling dice 1 time giving point: 5
-- Rolling dice 2 time giving point: 3
+want to roll again? (yes/no): yes
+Enter the times you want to roll: 2
+Rolling dice 1 time giving point: 5
+Rolling dice 2 time giving point: 3
 
-- want to roll again? (yes/no): no
-- Thank you for playing 
+want to roll again? (yes/no): no
+Thank you for playing
+
+```
 
 
 ## Important Notes
