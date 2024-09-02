@@ -64,7 +64,7 @@ while True:
         elif c_computer == c_player:
             print("Game tied...")
         else:
-            print("Player Won")
+            print(f"{name} Won")
         exit()
     
     else:
