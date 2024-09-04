@@ -67,4 +67,4 @@ Please press enter to leave the program
 
 ## License
 
-This project is licensed under the GLP License - see the LICENSE file for details.
+This project is licensed under the GPL License - see the LICENSE file for details.
