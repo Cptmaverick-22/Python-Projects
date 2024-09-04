@@ -6,17 +6,15 @@ def checking(letter):
     if whole_word == random_choice:
         print("Congratulations You got it !!!!")
     else:
-        print("Ahh, you lose :( ")
+        print("Ahh, you lose :(  The correct word was: ",random_choice)
 
     print()
     input("Please press enter to leave the program")
 
-
 words = ['hello','dog','apple','class','orange','melon','straw','game','word','elephant','good','marvel','disney']
-random_choice = rn.choice(words)
-hint = random_choice[0]+random_choice[-1]
 
-#print(random_choice)
+random_choice = rn.choice(words)                 #print(random_choice)
+hint = random_choice[0]+random_choice[-1]        #print(hint) this is used to view the hint
 
 name = input("Enter your name: ")
 print()
@@ -54,7 +52,7 @@ for i in range(chance):
             correct_guess[letter] = 0
             counting = 0
         
-        if correct_guess[letter] < count: 
+        if correct_guess[letter] <= count: 
             correct_guess[letter]+=1
             guessed.append(letter)
             print(f"You have guessed one letter correctly! '{letter}' appears {counting + 1 } Time")
