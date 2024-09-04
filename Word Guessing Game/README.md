@@ -1,65 +1,70 @@
 # Word Guessing Game
 
-This Python script is a simple word-guessing game where the player has to guess a randomly chosen word, one letter at a time. The player has six chances to guess the word, and they can ask for a clue if needed.
+Welcome to the Word Guessing Game! This is a simple command-line game where you have to guess a word by predicting its letters. You will have 6 chances to guess the word correctly. If you're confident, you can attempt to guess the entire word before your chances run out. Good luck!
 
 ## Features
 
-- Randomly selects a word from a predefined list.
-- Provides a hint with the first and last letter of the word if requested.
-- Tracks the number of correct guesses.
-- Allows the player to guess the entire word at the end.
-
-## Prerequisites
-
-- Python 3.x installed on your system.
+- Guess a random word from a predefined list of words.
+- You have 6 chances to guess the letters of the word.
+- You can request a clue after 3 incorrect guesses, which will reveal the first and last letters of the word, along with its length.
+- You can also choose to guess the entire word at any point by typing `quit`.
+- The game will congratulate you if you guess the word correctly or reveal the correct word if you don't.
 
 ## How to Play
 
-1. **Start the Game:**
-   - Run the script by executing the following command in your terminal or command prompt:
-     ```bash
-     python word_game.py
-     ```
-   - Replace `word_game.py` with the actual name of your Python file.
+1. Run the script.
+2. Enter your name.
+3. You will be greeted and informed of the rules.
+4. Start guessing letters one by one.
+5. After 3 guesses, you can request a clue.
+6. If you feel confident, you can type `quit` to guess the entire word.
+7. At the end of 6 chances, guess the whole word.
+8. The game will tell you if you guessed correctly or not.
 
-2. **Enter Your Name:**
-   - The game will prompt you to enter your name. This will personalize your gaming experience.
+## Prerequisites
 
-3. **Guess the Letters:**
-   - You will have 6 chances to guess the letters in the word.
-   - If you guess a correct letter, it will be added to your list of correct guesses.
-   - After 4 incorrect guesses, you will be given the option to receive a hint, which reveals the first and last letter of the word.
+- Python 3.x
+- The `random` module (standard with Python)
 
-4. **Guess the Whole Word:**
-   - At the end of the 6 chances, you will be asked to guess the entire word.
-   - If you guess correctly, you win! If not, the game will inform you that you've lost.
+## How to Run the Game
 
-## Important Notes
+1. Clone this repository or download the script.
+2. Run the script using Python:
 
-- The game uses a predefined list of words: `['hello','dog','apple','class','orange','melon','straw','game','word','elephant','good','marvel','disney']`.
-- The hint reveals the first and last letter of the chosen word.
-- The game ends after 6 chances, regardless of how many correct letters you have guessed.
+   ```
+   python word_guessing_game.py
+   ```
 
-## Example Output
+## Example gameplay
 
 ```
 Enter your name: John
+
 Welcome to word game John
+
 You will have 6 chances to guess the word
-guess a letter: a
+
+guess a letter or type 'quit' to guess the complete word: h
+You have guessed one letter correctly! 'h' appears 1 Time
+
+guess a letter or type 'quit' to guess the complete word: a
 Incorrect guess
-guess a letter: e
-you have guessed one letter correctly
-...
 
-Lets see how much you have guessed the word: 
-You have guessed 2 letters correctly and the letters are: ['e', 'l']
+guess a letter or type 'quit' to guess the complete word: t
+Incorrect guess
 
-Now guess the whole word
-Enter the whole word: apple
-Congratulations You got it !!!!
+will you want to have a clue: yes
+The first and last letter of the word is: h e
+The length of the word is: 5
+
+guess a letter or type 'quit' to guess the complete word: quit
+Enter the whole word: horse
+Ahh, you lose :(  The correct word was: hello
+
+Please press enter to leave the program
+
 ```
 
 ## License
 
-This script is free to use and modify for personal or educational purposes.
+This project is licensed under the GLP License - see the LICENSE file for details.
