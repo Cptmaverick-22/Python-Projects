@@ -16,7 +16,7 @@ words = ['hello','dog','apple','class','orange','melon','straw','game','word','e
 random_choice = rn.choice(words)
 hint = random_choice[0]+random_choice[-1]
 
-print(random_choice)
+#print(random_choice)
 
 name = input("Enter your name: ")
 print()
@@ -65,10 +65,11 @@ for i in range(chance):
         print("Incorrect guess")
 
 
-    if (i-1) == 3:
+    if (i) == 3:
         clue = input("will you want to have a clue: ")
         if clue.lower().startswith('y'):
             print("The first and last letter of the word is: ",hint)
+            print("The length of the word is: ",len(random_choice))
         else:
             print("You are very confident: ")
         
