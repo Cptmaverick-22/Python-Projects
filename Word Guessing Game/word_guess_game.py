@@ -52,7 +52,7 @@ for i in range(chance):
             correct_guess[letter] = 0
             counting = 0
         
-        if correct_guess[letter] <= count: 
+        if correct_guess[letter] < count: 
             correct_guess[letter]+=1
             guessed.append(letter)
             print(f"You have guessed one letter correctly! '{letter}' appears {counting + 1 } Time")

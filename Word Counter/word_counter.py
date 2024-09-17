@@ -1,6 +1,6 @@
 import os
 
-file = open("Convert to txt.txt", "r")
+file = open("test.txt", "r")
 content = file.read()
 words = content.split()
 
