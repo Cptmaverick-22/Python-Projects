@@ -7,7 +7,7 @@ fields = 3
 for i in range(fields):
     if i == 0:
         key = "Name"
-        value = input("Enter Your Name: ")
+        value = input("Enter Your Name: ").lower()
         details[key] = value
     if i == 1:
         key = "PIN"
@@ -17,12 +17,11 @@ for i in range(fields):
         key = "Balance"
         value = input("Enter the Balance: ")
         details[key] = int(value)
-print(details)
-
-total_amount = 0
 
 print("Details stored.....")
 print()
+
+total_amount = 0
 
 choice = input("Do you want to use ATM? ")
 
