@@ -10,6 +10,7 @@ def checking(letter):
 
     print()
     input("Please press enter to leave the program")
+    exit()
 
 words = ['hello','dog','apple','class','orange','melon','straw','game','word','elephant','good','marvel','disney']
 
